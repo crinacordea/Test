@@ -61,7 +61,6 @@ public class MyCommunityTests {
     public  void cleanUp(){
         ///driver.manage().deleteAllCookies();
        driver.quit();
-        System.out.println( "test");
 
     }
 
