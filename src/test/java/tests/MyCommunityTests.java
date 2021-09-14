@@ -61,7 +61,7 @@ public class MyCommunityTests {
     public  void cleanUp(){
         ///driver.manage().deleteAllCookies();
        driver.quit();
-        System.out.println( "version 1");
+        System.out.println( "version 2");
 
     }
 
