@@ -27,7 +27,7 @@ public class MyCommunityTests {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         LogInPage logIn = new LogInPage(driver);
         logIn.LogIn(Utils.username, Utils.password);
-        /**
+        /*
          * navigate to My commynity page
          */
         mycomm.clickOnMyCommunityTab();
@@ -61,7 +61,7 @@ public class MyCommunityTests {
     public  void cleanUp(){
         ///driver.manage().deleteAllCookies();
        driver.quit();
-        System.out.println( "version e");
+        System.out.println( "version a");
 
     }
 
